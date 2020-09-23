@@ -20,6 +20,10 @@ public class A4 extends Thread {
         t2.setName("th2");
         System.out.println(t2.getName());
 
+        // min pr - 1
+        // max pr - 10
+        // default pr - 5
+
         t1.setPriority(7);
         t2.setPriority(1);
         t2.start();
