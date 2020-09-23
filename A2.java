@@ -12,10 +12,10 @@ public class A2 extends Thread {
     public static void main(String[] args) {
         A2 t1=new A2();
         A2 t2=new A2();
-        t1.start();
-        t2.start();
+        t1.start();     // Calling run() instead of start() will work like a normal function call 
+        t2.start();     // It will not execute on a separate thread
     }
-    
+
 }
 
 // 0
