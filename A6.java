@@ -17,7 +17,7 @@ public class A6 {
     public static void main(String[] args) {
         // 10 threads in the pool
         ExecutorService exe=Executors.newFixedThreadPool(10);
-        // 100 tasks
+        // 50 tasks
         for(int i=0;i<50;i++) {
             exe.execute(new Task());
         }
